@@ -12,6 +12,8 @@ This will give you menu items for the following cores:
 * Game Boy color
 * Game Gear
 * Mega Duck
+* Neo Geo Pocket
+* Neo Geo Pocket Color
 * Pocket Challenge V2
 * Pokemon Mini
 * TurboExpress
@@ -29,3 +31,4 @@ db_url = https://raw.githubusercontent.com/davewongillies/MiSTer-handheld-mgls/d
 ```
 
 2. Run `update_all` from the `Scripts` menu
+3. For Neo Geo Pocket & Neo Geo Pocket Color you'll need to either symlink or copy `NeoGeoPocket.rbf` and `jtngpc.rbf` to `/media/fat/_Handheld/cores`
